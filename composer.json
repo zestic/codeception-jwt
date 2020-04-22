@@ -1,0 +1,19 @@
+{
+    "name": "zestic/codeception-jwt",
+    "description": "Asserts for jwt token",
+    "keywords": ["codeception", "jwt"],
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "require": {
+        "codeception/codeception": "^2.1 || ^3.0 || ^4.0",
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-0": {
+            "Codeception": "src"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
