@@ -3,7 +3,7 @@
 
 #### Installation
 ```bash
-composer require zestic/codeception-zestic --dev
+composer require zestic/codeception-jwt --dev
 ```
 
 #### To configure
@@ -17,6 +17,18 @@ modules:
             publicKeyPath:
             privateKeyPath:
             tokenTtl: 
+```
+
+In your composer.json
+```json
+{
+    "repositories": {
+        "zestic/codeception-jwt": {
+            "type": "vcs",
+            "url": "git@gitlab.com:zestic/codeception-jwt.git"
+        },
+    }
+}
 ```
 
 #### Testing
